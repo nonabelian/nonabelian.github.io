@@ -1,0 +1,148 @@
+/****************************************
+ * css style for my website
+ ****************************************/
+
+body {
+  font-size: 100%;
+  background-color: FFFFCC;
+  margin: 0;
+  padding: 0;
+}
+
+ul.headlist {
+  list-style-type: none;
+  font-size: 1.5em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0,-50%);
+/*  margin-top: 5%;
+  margin-right: 5%;
+*/
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  height: 30%;
+  width: 100%;
+  background: url(BoulderFall.jpg);
+/*  background-size: 100% 100%; */
+  background-repeat: no-repeat;
+  background-position: left;
+  overflow: hidden;
+}
+
+a.hlink {
+  display: block;
+  text-align: center;
+  width: 120px;
+  padding: 4px;
+  background-color: FFFFCC;
+}
+
+a.hlink:link, a.hlink:visited{
+  color: blue;
+  text-decoration: none;
+  background-color: FFFFCC;
+}
+
+a.hlink:hover, a.hlink:active{
+  background-color: white;
+  text-decoration: none;
+}
+
+h3 {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 2em;
+}
+
+h3.center {
+/*  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  margin: 0;
+  text-align: center;
+  background-color: rgba(255,255,255,0.6);
+  width: 10em;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+p.center {
+	text-align: center;
+	font-family: arial;
+/*	background-color: CC66FF;*/
+}
+
+p.bottom {
+	outline: black solid thin;
+	padding: 10px 10px 10px 10px;
+}
+
+p.subject {
+    font-size: 1.5em;
+}
+
+img.headleft {
+  height: 100%;
+/*  width: 200px; */
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+img.headright {
+  height: 30%;
+/*  width: 200px;*/
+  float: right;
+}
+
+a.section {
+    display: block;
+    text-decoration: none;
+    color: black;
+    height: 100px;
+    max-width: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,.25)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,.25)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,.25)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,.25)); /* Standard syntax (must be last) */
+    box-shadow: 10px 10px 5px #888888;
+    padding: 5px 5px 10px 10px; /* top bottom right left ?*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+/*    -webkit-transition: width 2s; */
+/*    transition: width 2s; */
+
+a.section:hover {
+    background-color: white;
+/*
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,.25));
+    background: -o-linear-gradient(right, rgba(0,0,0,1), rgba(0,0,0,.25));
+    background: -moz-linear-gradient(right, rgba(0,0,0,1), rgba(0,0,0,.25));
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,.25));
+    box-shadow: 10px 10px 5px #888888;
+*/
+}
+
+.contentbox{
+  height: 200px;
+  width: 27%;
+  float: left;
+  padding: 10px;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 10px;
+  overflow: hidden;
+}

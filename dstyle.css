@@ -34,6 +34,13 @@ ul.headlist {
   overflow: hidden;
 }
 
+#headerlink {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
 a.hlink {
   display: block;
   text-align: center;
@@ -50,6 +57,25 @@ a.hlink:link, a.hlink:visited{
 
 a.hlink:hover, a.hlink:active{
   background-color: white;
+  text-decoration: none;
+}
+
+a.noaction {
+  color: black;
+}
+
+a.noaction:link, a.noaction:visited{
+  color: black;
+  text-decoration: none;
+}
+
+a.noaction:hover, a.noaction:active{
+  text-decoration: none;
+}
+
+a.imgnoaction {
+  display: block;
+  color: black;
   text-decoration: none;
 }
 

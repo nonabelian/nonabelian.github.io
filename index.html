@@ -1,0 +1,73 @@
+<!-- My webpage attempt -->
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="dstyle.css" />
+  <title>
+    Dylan's Homepage
+  </title>
+</head>
+
+<body>
+<!--  <frameset cols="25%,75%">
+    <frame src="frame_a.htm">
+    <frame src="frame_b.htm"> -->
+
+  <script type="text/javascript">
+    function hello () {
+    
+      var foo = "Hello";
+      var bar = " Worlds!";
+      var foobar = foo.concat (bar);
+      alert (foobar);
+    }
+    document.getElementById("msg").onclick = hello;
+  </script>
+
+
+<!-- *************************************
+*****
+***** Header piece:
+*****
+******************************************-->
+
+  <div class="header">
+    <img class="headleft" src="profile1.jpg">
+    <!-- <img class="headright" src="w_and_m_logo.gif"> -->
+    <ul class="headlist">
+      <li><a class="hlink" href="http://www.github.com/nonabelian">GitHub</a></li>
+      <li><a class="hlink" href="http://www.linkedin.com/in/dylanalbrecht">LinkedIn</a></li>
+      <li><a class="hlink" href="http://inspirehep.net/author/profile/D.Albrecht.1">Inspire</a></li>
+
+    </ul>
+    <h3 class="center">Dylan Albrecht</h3>
+  </div>
+
+<!-- *************************************
+*****
+***** Specific content:
+*****
+******************************************-->
+  <table border="0" width="100%">
+  <tr>
+  <td valign="top" width="15%"></td>
+  <td>
+  <p class="subject">Summary</p>
+  <p>
+  This is a collection of
+  completed projects, works in progress, and related materials.
+  </p>
+  <p>
+  About me: I am a theoretical physicist with a range of interests.
+  </p>
+  <a class="section" href="physics.html"><p class="subject">Physics:</p>This is some text within the div.  I don't know how
+    it will wrap or anything like that...</a>
+  <a class="section" href="compute.html"><p class="subject">Computation</p>This is some more
+    text in the computation section...</a>
+  <a class="section" href="physics.html"></a>
+  </td>
+  <td width="15%"></td>
+  </tr>
+</body>
+
+</html>

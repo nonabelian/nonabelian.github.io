@@ -18,7 +18,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-body {
+html, body {
   font-size: 100%;
   background-color: FFFFCC;
   margin: 0;
@@ -48,6 +48,8 @@ ul.headlist {
   background-repeat: no-repeat;
   background-position: left;
   overflow: hidden;
+  margin: 0;
+  border-collapse: collapse;
 }
 
 #headerlink {
@@ -145,7 +147,7 @@ img.headright {
   float: right;
 }
 
-a.section {
+a.subjectbox {
     display: block;
     text-decoration: none;
     color: black;
@@ -163,28 +165,25 @@ a.section {
     margin-left: 10px;
     border-radius: 10px;
 }
-/*    -webkit-transition: width 2s; */
-/*    transition: width 2s; */
 
-a.section:hover {
-    background-color: white;
-/*
-    background: -webkit-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,.25));
-    background: -o-linear-gradient(right, rgba(0,0,0,1), rgba(0,0,0,.25));
-    background: -moz-linear-gradient(right, rgba(0,0,0,1), rgba(0,0,0,.25));
-    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,.25));
-    box-shadow: 10px 10px 5px #888888;
-*/
-}
+a.subjectbox:hover { background-color: white }
 
-.contentbox{
+a.contentbox {
+  display: block;
+  text-decoration: none;
+  color: black;
   height: 200px;
   width: 27%;
   float: left;
   padding: 10px;
   margin: 15px;
-  background-color: white;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,.25));
+  background: -o-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.25));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.25));
+  background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,.25));
   box-shadow: 10px 10px 5px #888888;
   border-radius: 10px;
   overflow: hidden;
 }
+
+a.contentbox:hover { background-color: white }

@@ -23,24 +23,17 @@
   <title>
     Dylan's Homepage
   </title>
+
+  <!-- Script area -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#BECStuff").load("physics/BECStuff/BECStuff.html #punchline");
+    });
+  </script>
 </head>
 
 <body>
-<!--  <frameset cols="25%,75%">
-    <frame src="frame_a.htm">
-    <frame src="frame_b.htm"> -->
-
-  <script type="text/javascript">
-    function hello () {
-    
-      var foo = "Hello";
-      var bar = " Worlds!";
-      var foobar = foo.concat (bar);
-      alert (foobar);
-    }
-    document.getElementById("msg").onclick = hello;
-  </script>
-
 <!-- *************************************
 *****
 ***** Header piece:
@@ -70,37 +63,34 @@
   <td valign="top" width="10%"></td>
   <td>
   <p class="subject">Physics</p>
-  <div class="contentbox">
-  <p class="subject">Evaporative cooling</p>
-  here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
-  lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z lskdjlfkjsdf
-  slkdjflksjdlk fjlaksl l skdjf oqpweiruowieuoriwuoieu oi osi odiu osiu df
-  oisudofiu osdiu f
-  </div>
-  <div class="contentbox">
+  <a class="contentbox" href="physics/BECStuff/BECStuff.html">
+    <p class="subject">BEC Stuff</p>
+    <p id="BECStuff">something temporary</p>
+  </a>
+  <a class="contentbox" href="physics/BECStuff/BECStuff.html">
   <p class="subject">PGC presentation</p>
   here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
   lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z lskdjlfkjsdf
   slkdjflksjdlk fjlaksl l skdjf oqpweiruowieuoriwuoieu oi osi odiu osiu df
   oisudofiu osdiu f
-  </div>
-  <div class="contentbox">
+  </a>
+  <a class="contentbox" href="physics/BECStuff/BECStuff.html">
   <p class="subject">My Thesis</p>
   here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
   lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z lskdjlfkjsdf
   slkdjflksjdlk fjlaksl l skdjf oqpweiruowieuoriwuoieu oi osi odiu osiu df
   oisudofiu osdiu f
-  </div>
-  <div class="contentbox">
+  </a>
+  <a class="contentbox" href="physics/BECStuff/BECStuff.html">
   <p class="subject">Publications</p>
   here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
   lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z
-  </div>
-  <div class="contentbox">
+  </a>
+  <a class="contentbox" href="physics/BECStuff/BECStuff.html">
   <p class="subject">Presentations</p>
   here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
   lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z
-  </div>
+  </a>
   </td>
   <td width="10%"></td>
   </tr>

@@ -41,3 +41,24 @@ tr, td {
   padding: 5px 5px 20px 20px;
   margin: 0;
 }
+
+p.physicssubject {
+  font: 100 50px 'Merienda One', Helvetica, sans-serif;
+  color: white;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  text-decoration: underline;
+}
+
+#punchline {
+  font: 400 30px 'Bad Script', Helvetica, sans-serif;
+  color: white;
+/*  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);*/
+}
+
+p.chalkboard {
+  font: 400 30px 'Bad Script', Helvetica, sans-serif;
+  color: white;
+}
+
+
+

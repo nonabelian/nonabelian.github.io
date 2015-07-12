@@ -1,6 +1,6 @@
 <!-- My webpage attempt -->
 <!--
-    This is the compute.html file of my website.
+    This is the index.html file of my website.
     Copyright (C) 2014  Dylan Albrecht
 
     This program is free software: you can redistribute it and/or modify
@@ -16,31 +16,26 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
+
 <html>
 
 <head>
   <link rel="stylesheet" type="text/css" href="dstyle.css" />
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
   <title>
     Dylan's Homepage
   </title>
+
+  <!-- Script area -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#phys").text("Holography, mathematical physics in general, gravitation, quantum information and computation, selected topics in condensed matter and AMO physics...");
+    });
+  </script>
 </head>
 
 <body>
-<!--  <frameset cols="25%,75%">
-    <frame src="frame_a.htm">
-    <frame src="frame_b.htm"> -->
-
-  <script type="text/javascript">
-    function hello () {
-    
-      var foo = "Hello";
-      var bar = " Worlds!";
-      var foobar = foo.concat (bar);
-      alert (foobar);
-    }
-    document.getElementById("msg").onclick = hello;
-  </script>
-
 <!-- *************************************
 *****
 ***** Header piece:
@@ -48,16 +43,22 @@
 ******************************************-->
 
   <div class="header">
-    <img class="headleft" src="profile1.jpg">
-    <!-- <img class="headright" src="w_and_m_logo.gif"> -->
+    <a href="http://en.wikipedia.org/wiki/Iceland"><img class="headleft" src="profile1.jpg"></a>
+    <a id=headerlink href="http://en.wikipedia.org/wiki/Kenosha_Pass"></a>
     <ul class="headlist">
-      <li><a class="hlink" href="http://www.github.com/nonabelian">GitHub</a></li>
-      <li><a class="hlink" href="http://www.linkedin.com/in/dylanalbrecht">LinkedIn</a></li>
-      <li><a class="hlink" href="http://inspirehep.net/author/profile/D.Albrecht.1">Inspire</a></li>
-
+      <li><a class="hlink" href="http://www.github.com/nonabelian">GitHub</a>
+      </li>
+      <li><a class="hlink" href="http://www.linkedin.com/in/dylanalbrecht">LinkedIn</a>
+      </li>
+      <li><a class="hlink" href="http://inspirehep.net/author/profile/D.Albrecht.1">Inspire</a>
+      </li>
     </ul>
-    <h3 class="center">Dylan Albrecht</h3>
+    <h3 class="center">
+      <a class="noaction" href="http://www.behindthename.com/name/dylan">Dylan</a>
+      <a class="noaction" href="http://www.behindthename.com/name/albert">Albrecht</a>
+    </h3>
   </div>
+
 
 <!-- *************************************
 *****
@@ -71,25 +72,31 @@
   <td>
   <p class="subject">Computing</p>
   <div class="contentbox">
+  <p class="subject">FEniCS</p>
+    This is a really cool tool for automated differential equation solving.
+    It can handle large systems of time-dependent nonlinear PDEs in up to three
+    spatial demensions, which blows my mind. It offers access to flexible
+    finite element based solvers, with control over the mesh (e.g. adaptive
+    mesh). For many problems, all this can be done in ~100 lines of code!
+    Of course, often to get accurate
+    simulations of difficult problems requires access to a supercomputer.
+  </div>
+  <div class="contentbox">
   <p class="subject">Kaggle</p>
-  here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
-  lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z lskdjlfkjsdf
-  slkdjflksjdlk fjlaksl l skdjf oqpweiruowieuoriwuoieu oi osi odiu osiu df
-  oisudofiu osdiu f
+    Kaggle (website) offers an excellent competitive testing ground for
+    practicing machine learning techniques, where results can be financially
+    very rewarding.  I will add any attempted competitions here:
   </div>
   <div class="contentbox">
   <p class="subject">Machine learning</p>
-  here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
-  lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z lskdjlfkjsdf
-  slkdjflksjdlk fjlaksl l skdjf oqpweiruowieuoriwuoieu oi osi odiu osiu df
-  oisudofiu osdiu f
+    Andrew Ng's coursera course offers a very nice (though seemingly behind
+    the times) introduction to the rapidly growing and much-hyped area of
+    machine learning.  
   </div>
   <div class="contentbox">
   <p class="subject">Encryption</p>
-  here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
-  lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z lskdjlfkjsdf
-  slkdjflksjdlk fjlaksl l skdjf oqpweiruowieuoriwuoieu oi osi odiu osiu df
-  oisudofiu osdiu f
+    Hopefully I will complete the coursera Crypto I & II courses and put
+    put materials here.
   </div>
   <div class="contentbox">
   <p class="subject">Past projects</p>
@@ -98,8 +105,7 @@
   </div>
   <div class="contentbox">
   <p class="subject">Offender</p>
-  here is some content alksjdlfksjlfsjldk slkdj lsk dl sldkf lskdlf s df
-  lskdjf lks dlfk slkd fla ;sdlkjf woeiupqiwuer zxc,mvnx cnv z
+    Offender is a video game that I co-authored: (website)
   </div>
   </td>
   <td width="10%"></td>

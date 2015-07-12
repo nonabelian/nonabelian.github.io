@@ -151,7 +151,7 @@ a.subjectbox {
     display: block;
     text-decoration: none;
     color: black;
-    height: 100px;
+    height: 120px;
     max-width: 100%;
     background: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,.25)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,.25)); /* For Opera 11.1 to 12.0 */

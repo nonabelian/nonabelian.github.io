@@ -1,0 +1,94 @@
+<!-- My webpage attempt -->
+<!--
+    This is the BECStuff.html file of my website.
+    Copyright (C) 2014  Dylan Albrecht
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../../dstyle.css" />
+  <link rel="stylesheet" type="text/css" href="../phys.css" />
+  <link href="../../favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="http://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+  <title>
+    Dylan's Homepage
+  </title>
+
+  <!-- Script area -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#phys").text("boo");
+    });
+  </script>
+</head>
+
+<body>
+<!-- *************************************
+*****
+***** Header piece:
+*****
+******************************************-->
+
+  <div class="header">
+    <a href="http://en.wikipedia.org/wiki/Iceland"><img class="headleft" src="../../profile1.jpg"></a>
+    <a id=headerlink href="http://en.wikipedia.org/wiki/Kenosha_Pass"></a>
+    <ul class="headlist">
+      <li><a class="hlink" href="http://www.github.com/nonabelian">GitHub</a>
+      </li>
+      <li><a class="hlink" href="http://www.linkedin.com/in/dylanalbrecht">LinkedIn</a>
+      </li>
+      <li><a class="hlink" href="http://inspirehep.net/author/profile/D.Albrecht.1">Inspire</a>
+      </li>
+    </ul>
+    <h3 class="center">
+      <a class="noaction" href="http://www.behindthename.com/name/dylan">Dylan</a>
+      <a class="noaction" href="http://www.behindthename.com/name/albert">Albrecht</a>
+    </h3>
+  </div>
+
+<!-- *************************************
+*****
+***** Specific content:
+*****
+******************************************-->
+  <table class="physicstable">
+  <tr>
+  <td valign="top" width="10%"></td>
+  <td valign="top">
+    <div class="physicscontent">
+    <p class="physicssubject">Quantum Information</p>
+    <p id="punchline">
+    Quantum information is a strange, sometimes confusing, yet fundamental
+    area of physics.  It connected to many areas of study: computation,
+    AMO, condensed matter, AdS/CFT (entanglement entropy), and simply
+    the fundamentals of quantum mechanics.
+    </p>
+    <p class="chalkboard">
+      My interest in QI is from a holographic point of view.  John Preskill's
+      lecture notes and the book by Nielson and Chuang are excellent resources.
+      I hope to post some write-ups and maybe some problems/solutions.
+    </p>
+    </div>
+  </td>
+  <td width="10%"></td>
+  </tr>
+
+</body>
+
+</html>

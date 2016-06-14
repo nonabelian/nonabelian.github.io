@@ -131,6 +131,10 @@ p.subject {
     font-size: 1.5em;
 }
 
+p.indent {
+    margin-left: 20px;
+}
+
 img.headleft {
   height: 100%;
 /*  width: 200px; */
